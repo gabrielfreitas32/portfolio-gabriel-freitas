@@ -1,122 +1,305 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
+
 <head>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfólio Gabriel Freitas</title>
 
+    <title>Gabriel Freitas | Portfólio</title>
+
+    <meta name="description"
+        content="Portfólio de Gabriel Freitas dos Santos - Estudante de Análise e Desenvolvimento de Sistemas">
+
+    <!-- Fonte -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <!-- CSS -->
     <link rel="stylesheet" href="style.css">
+
+    <!-- Ícones -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+    <link rel="icon" href="imggabriel.jpg">
+
 </head>
+
 <body>
 
-<header>
-    <nav>
-        <ul>
-            <li><a href="#sobre-mim">Sobre Mim</a></li>
-            <li><a href="#formacao">Formação</a></li>
-            <li><a href="#portfolio">Portfólio</a></li>
-            <li><a href="#contato">Contato</a></li>
-        </ul>
-    </nav>
-</header>
+    <!-- ================= HEADER ================= -->
 
-<!-- Sobre Mim -->
-<section id="sobre-mim">
+    <header>
 
-    <div class="sobre-container">
+        <div class="container">
 
-        <!-- Foto de perfil -->
-        <div class="foto-container">
-            <img
-    src="imggabriel.jpg"
-    alt="Foto de Gabriel Freitas"
-    class="foto-perfil">
-        </div>
+            <div class="logo">
+                Gabriel Freitas
+            </div>
 
-        <!-- Texto sobre mim -->
-        <div class="sobre-texto">
+            <button class="menu-toggle" id="menu-toggle">
+                <i class="fa-solid fa-bars"></i>
+            </button>
 
-            <h1>Sobre Mim</h1>
+            <nav id="menu">
 
-            <p>
-                Meu nome é Gabriel Freitas dos Santos.
-                Atualmente curso Análise e Desenvolvimento de Sistemas e estou estudando programação para migrar para a área de tecnologia.
-            </p>
+                <ul>
 
-            <p>
-                Tenho interesse em desenvolvimento de software e busco evoluir constantemente nos estudos para conquistar minha primeira oportunidade na área.
-            </p>
+                    <li>
+                        <a href="#sobre">Sobre Mim</a>
+                    </li>
 
-            <p>
-                Além da programação, gosto de musculação e corrida, atividades que fazem parte da minha rotina.
-            </p>
+                    <li>
+                        <a href="#formacao">Formação</a>
+                    </li>
+
+                    <li>
+                        <a href="#portfolio">Portfólio</a>
+                    </li>
+
+                    <li>
+                        <a href="#contato">Contato</a>
+                    </li>
+
+                </ul>
+
+            </nav>
 
         </div>
 
-    </div>
+    </header>
 
-</section>
+    <!-- ================= HERO ================= -->
 
-<!-- Formação -->
-<section id="formacao">
-    <h1>Formação</h1>
+    <section id="sobre">
 
-    <h2>Formação Acadêmica</h2>
-    <p>Curso Superior de Tecnologia em Análise e Desenvolvimento de Sistemas (em andamento).</p>
+        <div class="sobre-container">
 
-    <h2>Cursos</h2>
-    <ul>
-        <li>Python - Curso em Vídeo</li>
-        <li>HTML5 e CSS3</li>
-        <li>Git e GitHub</li>
-    </ul>
+            <div class="foto-container">
 
-    <h2>Idiomas</h2>
-    <ul>
-        <li>Português - Nativo</li>
-    </ul>
-</section>
+                <img src="imggabriel.jpg"
+                    alt="Gabriel Freitas"
+                    class="foto-perfil">
 
-<!-- Portfólio -->
-<section id="portfolio">
-    <h1>Portfólio</h1>
+            </div>
 
-    <p>Abaixo estão alguns dos trabalhos e projetos que desenvolvi durante meus estudos.</p>
+            <div class="sobre-texto">
 
-    <ul>
-        <li>Exercícios de Python realizados durante o Curso em Vídeo.</li>
-        <li>Projetos desenvolvidos na faculdade de Análise e Desenvolvimento de Sistemas.</li>
+                <span class="tag">
+                    Desenvolvedor em formação
+                </span>
 
-        <li>
-            Meu GitHub:
-            <a href="https://github.com/gabrielfreitas32" target="_blank" rel="noopener noreferrer">
-                Acessar GitHub
-            </a>
-        </li>
-    </ul>
-</section>
+                <h1>
+                    Gabriel Freitas dos Santos
+                </h1>
 
-<!-- Contato -->
-<section id="contato">
-    <h1>Contato</h1>
+                <p>
 
-    <form id="formContato">
-        <label for="nome">Nome:</label>
-        <input type="text" id="nome" name="nome" required>
+                    Sou estudante de
+                    <strong>Análise e Desenvolvimento de Sistemas</strong>,
+                    apaixonado por tecnologia e desenvolvimento de software.
 
-        <label for="email">E-mail:</label>
-        <input type="email" id="email" name="email" required>
+                </p>
 
-        <label for="mensagem">Mensagem:</label>
-        <textarea id="mensagem" name="mensagem" required></textarea>
+                <p>
 
-        <button type="button" onclick="enviarFormulario()">
-            Enviar
-        </button>
-    </form>
-</section>
+                    Estou em constante evolução por meio de cursos,
+                    projetos práticos e estudos, buscando minha primeira
+                    oportunidade profissional na área de tecnologia.
 
-<script src="script.js"></script>
+                </p>
+
+                <p>
+
+                    Além da programação, pratico musculação e corrida,
+                    atividades que fortalecem minha disciplina e dedicação.
+
+                </p>
+
+                <div class="social">
+
+                    <a href="https://github.com/gabrielfreitas32"
+                        target="_blank">
+
+                        <i class="fab fa-github"></i>
+
+                        GitHub
+
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- ================= FORMAÇÃO ================= -->
+
+    <section id="formacao">
+
+        <h2>Formação</h2>
+
+        <div class="card">
+
+            <h3>🎓 Formação Acadêmica</h3>
+
+            <p>
+
+                Curso Superior de Tecnologia em
+                <strong>Análise e Desenvolvimento de Sistemas</strong>
+                (em andamento).
+
+            </p>
+
+        </div>
+
+        <div class="card">
+
+            <h3>📚 Cursos</h3>
+
+            <ul>
+
+                <li>Python - Curso em Vídeo</li>
+
+                <li>HTML5 e CSS3</li>
+
+                <li>Git e GitHub</li>
+
+            </ul>
+
+        </div>
+
+        <div class="card">
+
+            <h3>🌎 Idiomas</h3>
+
+            <ul>
+
+                <li>Português - Nativo</li>
+
+            </ul>
+
+        </div>
+
+    </section>
+
+    <!-- ================= PORTFÓLIO ================= -->
+
+    <section id="portfolio">
+
+        <h2>Portfólio</h2>
+
+        <div class="portfolio-grid">
+
+            <div class="card">
+
+                <h3>Exercícios em Python</h3>
+
+                <p>
+
+                    Exercícios desenvolvidos durante o Curso em Vídeo.
+
+                </p>
+
+            </div>
+
+            <div class="card">
+
+                <h3>Projetos Acadêmicos</h3>
+
+                <p>
+
+                    Trabalhos desenvolvidos durante a graduação.
+
+                </p>
+
+            </div>
+
+            <div class="card">
+
+                <h3>GitHub</h3>
+
+                <p>
+
+                    Todos os meus projetos disponíveis online.
+
+                </p>
+
+                <a
+                    class="btn"
+                    href="https://github.com/gabrielfreitas32"
+                    target="_blank">
+
+                    Acessar GitHub
+
+                </a>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- ================= CONTATO ================= -->
+
+    <section id="contato">
+
+        <h2>Contato</h2>
+
+        <form id="formContato">
+
+            <input
+                type="text"
+                id="nome"
+                placeholder="Seu nome">
+
+            <input
+                type="email"
+                id="email"
+                placeholder="Seu e-mail">
+
+            <textarea
+                id="mensagem"
+                placeholder="Digite sua mensagem"></textarea>
+
+            <button
+                type="button"
+                onclick="enviarFormulario()">
+
+                Enviar Mensagem
+
+            </button>
+
+        </form>
+
+    </section>
+
+    <!-- ================= FOOTER ================= -->
+
+    <footer>
+
+        <p>
+
+            © 2026 Gabriel Freitas dos Santos
+
+        </p>
+
+        <p>
+
+            Desenvolvido com HTML, CSS e JavaScript.
+
+        </p>
+
+    </footer>
+
+    <script src="script.js"></script>
 
 </body>
+
 </html>
