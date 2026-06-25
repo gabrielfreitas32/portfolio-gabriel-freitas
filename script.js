@@ -1,4 +1,3 @@
-```javascript
 // ===============================
 // MENU RESPONSIVO
 // ===============================
@@ -33,7 +32,6 @@ function enviarFormulario() {
         return;
     }
 
-    // Validação de e-mail
     const regexEmail = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 
     if (!regexEmail.test(email)) {
@@ -48,5 +46,4 @@ function enviarFormulario() {
 
     document.getElementById("formContato").reset();
 }
-```
 
