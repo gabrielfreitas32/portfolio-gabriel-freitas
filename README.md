@@ -1,2 +1,3 @@
-# portfolio-gabriel-freitas
-Meu portifólio
+# portfólio-gabriel-freitas
+
+Meu portfólio.
